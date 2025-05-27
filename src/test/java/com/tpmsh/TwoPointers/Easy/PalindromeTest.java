@@ -1,4 +1,4 @@
-package com.tpmsh.Arrays_Hashing.Easy;
+package com.tpmsh.TwoPointers.Easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.tpmsh.Arrays_Hashing.Easy;
+package com.tpmsh.TwoPointers.Easy;
 
 public class StringUsage {
 
@@ -17,6 +17,8 @@ public class StringUsage {
         int left = 0;
         int right = s.length() - 1;
         while(left < right) {
+            // notice the left < right condition inside both the while loops
+            // SAVES from OutOfBound
             while(left < right && !Character.isLetterOrDigit(s.charAt(left))) left++;
             while(left < right && !Character.isLetterOrDigit(s.charAt(right))) right--;
             if(Character.toLowerCase(s.charAt(left)) != Character.toLowerCase(s.charAt(right))) return false;
