@@ -1,17 +1,18 @@
-package com.tpmsh.Strings;
+package com.tpmsh.Arrays_Hashing.Easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PalindromeTest {
 
-    StringUsageEasy solution;
+    StringUsage solution;
 
     @BeforeEach
     void setUp() {
-        this.solution = new StringUsageEasy();
+        this.solution = new StringUsage();
     }
 
     @Test

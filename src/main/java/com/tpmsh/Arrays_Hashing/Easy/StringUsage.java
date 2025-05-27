@@ -1,6 +1,6 @@
-package com.tpmsh.Strings;
+package com.tpmsh.Arrays_Hashing.Easy;
 
-public class StringUsageEasy {
+public class StringUsage {
 
     // 125. Valid Palindrome
     // https://leetcode.com/problems/valid-palindrome/description/
@@ -25,4 +25,26 @@ public class StringUsageEasy {
         }
         return true;
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

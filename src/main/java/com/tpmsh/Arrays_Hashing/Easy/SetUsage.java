@@ -1,9 +1,9 @@
-package com.tpmsh.Sets;
+package com.tpmsh.Arrays_Hashing.Easy;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class SetUsageEasy {
+public class SetUsage {
 
     // 217. Contains Duplicate
     // https://leetcode.com/problems/contains-duplicate/description/

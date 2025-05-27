@@ -1,10 +1,10 @@
-package com.tpmsh.Maps;
+package com.tpmsh.Arrays_Hashing.Easy;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class MapUsageEasy {
+public class MapUsage {
 
     // 242. Valid Anagram
     //https://leetcode.com/problems/valid-anagram/description/

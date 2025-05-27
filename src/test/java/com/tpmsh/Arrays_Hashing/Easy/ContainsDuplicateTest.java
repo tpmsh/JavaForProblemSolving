@@ -1,17 +1,18 @@
-package com.tpmsh.Sets;
+package com.tpmsh.Arrays_Hashing.Easy;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class SetUsageEasyTest {
+class ContainsDuplicateTest {
 
-    SetUsageEasy solution;
+    SetUsage solution;
 
     @BeforeEach
     void setUp() {
-        this.solution = new SetUsageEasy();
+        this.solution = new SetUsage();
     }
 
     @Test
